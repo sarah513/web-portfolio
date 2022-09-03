@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* home page  */
+#home-bg {
+    height: 100vh;
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-bg {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+
+.nav-item:hover {
+    transition: 700ms;
+    border-bottom: 1px white solid;
+}
+
+.menu:hover .menu-item {
+    display: block;
+}
+
+.menu_ ul li:hover a {
+    transition: 700ms;
+    color: #0078ff;
+}
+
+.size {
+    font-size: calc(2rem + 2vw);
+}
+
+.animation::after {
+    content: "|";
+    animation-name: jobs;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jobs {
+    0% {
+        content: "D|";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    4% {
+        content: "Dev|";
+    }
+
+    6% {
+        content: "Deve|";
+    }
+
+    8% {
+        content: "Devel|";
+    }
+
+    10% {
+        content: "Develo|";
+    }
+
+    12% {
+        content: "Develop|";
+    }
+
+    14% {
+        content: "Develope|";
+    }
+
+    16% {
+        content: "Developer|";
+    }
+
+    18% {
+        content: "Develope|";
+    }
+
+    20% {
+        content: "Develop|";
+    }
+
+    24% {
+        content: "Develo|";
+    }
+
+    28% {
+        content: "Devel|";
+    }
+
+    32% {
+        content: "Deve|";
+    }
+
+    36% {
+        content: "Dev|";
+    }
+
+    38% {
+        content: "De|";
+    }
+
+    40% {
+        content: "D|";
+    }
+
+    44% {
+        content: "|";
+    }
+
+    44% {
+        content: "F|";
+    }
+
+    46% {
+        content: "Fr|";
+    }
+
+    48% {
+        content: "Fre|";
+    }
+
+    50% {
+        content: "Free|";
+    }
+
+    52% {
+        content: "Free |";
+    }
+
+    54% {
+        content: "Free L|";
+    }
+
+    56% {
+        content: "Free La|";
+    }
+
+    58% {
+        content: "Free Lan|";
+    }
+
+    60% {
+        content: "Free Lanc|";
+    }
+
+    62% {
+        content: "Free Lance|";
+    }
+
+    64% {
+        content: "Free Lancer|";
+    }
+
+    68% {
+        content: "Free Lancer|";
+    }
+
+    70% {
+        content: "Free Lance|";
+    }
+
+    74% {
+        content: "Free Lanc|";
+    }
+
+    76% {
+        content: "Free Lan|";
+    }
+
+    78% {
+        content: "Free La|";
+    }
+
+    82% {
+        content: "Free L|";
+    }
+
+    84% {
+        content: "Free |";
+    }
+
+    86% {
+        content: "Free |";
+    }
+
+    88% {
+        content: "Free |";
+    }
+
+    90% {
+        content: "Free|";
+    }
+
+    92% {
+        content: "Fre|";
+    }
+
+    94% {
+        content: "Fr|";
+    }
+
+    96% {
+        content: "F|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+/* about us page  */
+.about-us {
+    background-color: #f5f5f5;
+    padding: 60px 0px;
+
+}
+
+.about-container {
+
+    padding: 40px;
+    background-color: white;
+    margin: auto;
+}
+
+.line {
+    height: 2px;
+    width: 90px;
+    background-color: #0078ff;
+}
+
+#aboutimg {
+    border-radius: 4px;
+}
+
+/* service page  */
+.service-line {
+    width: 40px;
+    height: 3px;
+    background-color: #0078ff
+}
+
+.about-us header h2 {
+    font-size: 50px;
+}
+
+.radius {
+    border-radius: 50%;
+    border: 10px #0078ff solid;
+    transition: 700ms;
+
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.single-service {
+
+
+    font-size: 1.1rem;
+}
+
+.single-service:hover .radius {
+
+    background-color: #0078ff;
+    border: 10px #cde1f8 solid;
+
+}
+
+.single-service:hover .radius i {
+    color: white;
+}
+
+.work {
+    background-image: url(../images/post-3.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.blue-bg {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #0077ff9c;
+}
+
+.radius-white {
+    border-radius: 50%;
+    border: 10px white solid;
+}
+
+.portfolio-img {
+    transition: 700ms;
+}
+
+.portfolio-div:hover .portfolio-img {
+    transform: scale(1.3);
+
+}
+
+.port-size {
+    font-family: 3rem;
+}
+
+.feedback {
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.img-size {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.blog {
+    padding: 5px;
+    font-size: 14px;
+    width: fit-content;
+}
+
+.img-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.beige {
+    background-color: #efefef;
+}
+
+.top {
+    top: 95%
+}
+
+.top2 {
+    top: 200%
+}
+/* send us message  */
+
+.form-btn {
+
+    background-color: #0078ff;
+    border: 5px #0078ff solid;
+    transition: 700ms;
+}
+.form-btn:hover{
+    background-color: #0077ff9c;
+    border: 5px #cde1f8 solid;
+}
+.icon1,.icon2{
+    width: 50px;
+    height: 50px;
+    border: 4px #0078ff solid;
+    border-radius: 50%;
+    transition: 700ms;
+
+}
+
+.icon1 img{
+    width: 25px;
+    height: 25px;
+     transition: 700ms;
+}
+.icon img {
+    width: 30px;
+    height: 30px;
+    transition: 700ms;
+}
+.icon1:hover , .icon2:hover{
+    background-color: #0078ff;
+    border: 4px #cde1f8 solid;
+}
+.icon1:hover img , .icon2:hover img{
+filter: invert(100%);
+}
+
+/* footer  */
+.blue{
+    background-color: #0062d3;
+}
+@media screen and (min-width:1400px) {
+    .color {
+        color: white;
+    }
+}
+
+@media screen and (max-width:1400px) and (min-width:1200px) {
+
+    .top {
+        top: 93%
+    }
+
+    .color {
+        color: white;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .top {
+        top: 90%
+    }
+
+    .color {
+        color: white;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    .top {
+        top: 90%
+    }
+
+    .navbar-nav {
+        background-color: rgba(240, 248, 255, 0.889);
+        text-align: center;
+    }
+
+    .color {
+        color: black !important;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:578px) {
+    .navbar-nav {
+        background-color: rgba(240, 248, 255, 0.889);
+        text-align: center;
+    }
+
+    .color {
+        color: black !important;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .fit-smaller {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        background-color: rgba(240, 248, 255, 0.889);
+        text-align: center;
+    }
+
+    .color {
+        color: black !important;
+    }
+}
